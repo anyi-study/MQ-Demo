@@ -14,7 +14,7 @@ public class PublisherTest {
         // 1.建立连接
         ConnectionFactory factory = new ConnectionFactory();
         // 1.1.设置连接参数，分别是：主机名、端口号、vhost、用户名、密码
-        factory.setHost("192.168.150.101");
+        factory.setHost("192.168.150.129");
         factory.setPort(5672);
         factory.setVirtualHost("/");
         factory.setUsername("itcast");
